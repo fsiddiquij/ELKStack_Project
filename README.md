@@ -3,11 +3,11 @@ ELKStack_Project
 Automated ELK Stack Deployment
 The files in this repository were used to configure the network depicted below.
 
-Network Diagram in Diagrams folder
+![Link to network diagram](https://github.com/fsiddiquij/ELKStack_Project/blob/main/Diagrams/ELKStackNetworkDiagram.JPG)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
-Filebeat playbook in Ansible folder
+![Link to Filebeat playbook](https://github.com/fsiddiquij/ELKStack_Project/blob/main/Ansible/Filebeat-yml.txt)
 
 This document contains the following details:
 Description of the Topology
