@@ -33,13 +33,13 @@ The configuration details of each machine may be found below.
 
 Access Policies
 The machines on the internal network are not exposed to the public Internet.
-Only the Jumpbox Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: xx.xx.xx.xx
+Only the Jumpbox Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 192.168.1.19
 Machines within the network can only be accessed by peer servers. Jump-Box-Provisioner (10.0.0.4)
 A summary of the access policies in place can be found in the table below.
 
 | Name   | Publicly Accessible | Allowed IP Adsress |
 |--------|---------------------|--------------------|
-| JumBox | Yes                 |                    |
+| JumBox | Yes                 | 192.168.1.19                  |
 | Web 1  | No                  | 10.0.0.1-254       |
 | Web 2  | No                  | 10.0.0.1-254       |
 | ELK    | No                  | 10.0.0.1-254       |
